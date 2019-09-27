@@ -5042,12 +5042,12 @@ declare namespace EngineAPI {
         /**
          * The measures for this node.
          */
-        qValues: INxTreeValue;
+        qValues: INxTreeValue[];
 
         /**
          * The children of this node in the tree structure.
          */
-        qNodes: INxTreeNode;
+        qNodes: INxTreeNode[];
 
         /**
          * Attribute expression values.
